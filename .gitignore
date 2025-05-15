@@ -1,0 +1,10 @@
+# Ignore Add Post folder
+Add Post/
+
+# Ignore test post files
+*.txt
+
+# Ignore Python script files
+*.py
+*.pyc
+__pycache__/
