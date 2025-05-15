@@ -1,0 +1,17 @@
+My First Programmatically Added Blog Post
+
+This is a sample blog post to demonstrate how the add_blog_post.py script works.
+
+This is a paragraph with some text. You can write multiple paragraphs like this.
+
+https://i.imgur.com/qKCJTCR.png center
+
+The image above should be centered on the page. I can continue writing more content below it.
+
+https://i.imgur.com/NdosgQn.png right
+
+This image should be aligned to the right. You can also align images to the left using the 'left' keyword after the URL.
+
+https://i.imgur.com/TisHwVP.png left
+
+And that image should be aligned left.
