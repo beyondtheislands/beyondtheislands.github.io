@@ -66,12 +66,9 @@ def process_content(content_lines):
         else:  # image
             img_url, alignment = block[1], block[2]
             
-            # Extract the image ID for creating a direct link to the Imgur page
-            img_id = img_url.split('/')[-1].split('.')[0]
-            imgur_page_url = f'https://imgur.com/{img_id}'
-            
+            # Use the direct image URL for the link
             img_html = f'        <div style="text-align: {alignment};">\n'
-            img_html += f'            <a href="{imgur_page_url}" target="_blank">\n'
+            img_html += f'            <a href="{img_url}" target="_blank">\n'
             img_html += f'                <img src="{img_url}" alt="Blog image" style="max-width: 400px; max-height: 400px; object-fit: contain;" />\n'
             img_html += '            </a>\n'
             img_html += '        </div>'
