@@ -35,3 +35,25 @@ td {
    padding: 10px;
    border: 1px solid #ccc;
 }
+
+/* Blog styles */
+.blog-post {
+    margin-bottom: 20px;
+}
+
+.blog-date {
+    color: #888888;
+    font-size: 0.9em;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.blog-body {
+    line-height: 1.5;
+}
+
+.blog-divider {
+    border: none;
+    border-top: 1px solid #eeeeee;
+    margin: 20px 0;
+}
